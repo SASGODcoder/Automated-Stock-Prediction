@@ -1,0 +1,10 @@
+External Imports
+
+import csv
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+from sklearn.preprocessing import MinMaxScaler
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, LSTM
+import splinter
+from splinter import Browser
