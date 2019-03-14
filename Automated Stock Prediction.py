@@ -265,3 +265,5 @@ correl_for_pred(stock_pred_list)"""
 
 for index in ticker:
     os.remove('C:\\Users\\Shaurya\\Downloads\\' + index + '.csv')
+    
+print ('Check your downloads folder for the predicted data and key statistics.')
